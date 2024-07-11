@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: var(--font-primary);
+  }
+}
+
+.hamburger {
+  height: 25px;
+  width: 25px;
+  transition-duration: 0.5s;
+  position: relative;
+}
+
+.hamburger.open .icon {
+  transition-duration: 0.5s;
+  background: transparent;
+}
+
+.hamburger .icon {
+  transition-duration: 0.5s;
+  position: absolute;
+  height: 3px;
+  width: 25px;
+  top: calc(25px / 2 - 1.5px);
+}
+
+.hamburger.open .icon:before {
+  transform: rotateZ(45deg) scaleX(1.25) translate(6.5px, 6.5px);
+}
+
+.hamburger .icon:before {
+  transition-duration: 0.5s;
+  position: absolute;
+  width: 25px;
+  height: 3px;
+  content: "";
+  top: -10px;
+}
+
+.hamburger.open .icon:after {
+  transform: rotateZ(-45deg) scaleX(1.25) translate(6px, -6px);
+}
+
+.hamburger .icon:after {
+  transition-duration: 0.5s;
+  position: absolute;
+  width: 25px;
+  height: 3px;
+  content: "";
+  top: 10px;
+}
+
+.scrollable-div::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollable-div {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.box-video {
+  width: 100%;
+}
+
+.box-video>div {
+  width: auto !important; ;
+  max-width: 100% !important;
+  height: auto !important;
+  max-height: 500px;
+  min-height: 314px !important;
+}
+
+.box-video video {
+  width: auto !important; ;
+  height: auto !important; ;
+  max-width: 100% !important;
+  max-height: 500px !important;
+  min-height: 314px !important;
+  margin: 0 auto !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .box-video>div {
+    min-height: 200px !important;
+  }
+
+  .box-video video {
+    min-height: 200px !important;
+  }
+}
+
+.menu-left {
+  transition: left 10s ease;
+}
+
+.modal[open] {
+  background-color: rgba(0, 0, 0, .5);
+}

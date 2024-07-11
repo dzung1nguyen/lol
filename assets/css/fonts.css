@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400..900;1,400..900&family=Vollkorn:ital,wght@0,400..900;1,400..900&family=Genos:ital,wght@0,400..900;1,400..900&family=Grenze:ital,wght@0,400;0,900;1,400;1,900&family=Kanit:ital,wght@0,400;0,900;1,400;1,900&family=Labrada:ital,wght@0,400..900;1,400..900&family=Noto+Sans:ital,wght@0,400..900;1,400..900&family=Petrona:ital,wght@0,400..900;1,400..900&family=Rokkitt:ital,wght@0,400..900;1,400..900&family=Saira:ital,wght@0,400..900;1,400..900&family=Tourney:ital,wght@0,400..900;1,400..900&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+/*
+    Kanit: Kanit,
+
+    Bitter: Bitter,
+    Grenze: Grenze,
+    Labrada: Labrada,
+    Noto Sans: Noto Sans,
+    Petrona: Petrona,
+    Rokkitt: Rokkitt,
+    Saira: Saira,
+    Tourney: Tourney, // outline = 0;
+    Vollkorn: Vollkorn
+    Genos: Genos,
+*/
+
+.fontKanit {
+    font-family: 'Kanit';
+    font-weight: 900;
+}
+.fontBitter {
+    font-family: 'Bitter';
+    font-weight: 900;
+}
+.fontGrenze {
+    font-family: 'Grenze';
+    font-weight: 900;
+}
+.fontLabrada {
+    font-family: 'Labrada';
+    font-weight: 900;
+}
+.fontNotoSans {
+    font-family: 'Noto Sans';
+    font-weight: 900;
+}
+.fontPetrona {
+    font-family: 'Petrona';
+    font-weight: 900;
+}
+.fontRokkitt {
+    font-family: 'Rokkitt';
+    font-weight: 900;
+}
+.fontSaira {
+    font-family: 'Saira';
+    font-weight: 900;
+}
+.fontTourney {
+    font-family: 'Tourney';
+    font-weight: 900;
+}
+.fontVollkorn {
+    font-family: 'Vollkorn';
+    font-weight: 900;
+}
+.fontGenos {
+    font-family: 'Genos';
+    font-weight: 900;
+}
+
+/* 400 */
+.fontKanit400 {
+    font-family: 'Kanit';
+    font-weight: 400;
+}
+.fontBitter400 {
+    font-family: 'Bitter';
+    font-weight: 400;
+}
+.fontGrenze400 {
+    font-family: 'Grenze';
+    font-weight: 400;
+}
+.fontLabrada400 {
+    font-family: 'Labrada';
+    font-weight: 400;
+}
+.fontNotoSans400 {
+    font-family: 'Noto Sans';
+    font-weight: 400;
+}
+.fontPetrona400 {
+    font-family: 'Petrona';
+    font-weight: 400;
+}
+.fontRokkitt400 {
+    font-family: 'Rokkitt';
+    font-weight: 400;
+}
+.fontSaira400 {
+    font-family: 'Saira';
+    font-weight: 400;
+}
+.fontTourney400 {
+    font-family: 'Tourney';
+    font-weight: 400;
+}
+.fontVollkorn400 {
+    font-family: 'Vollkorn';
+    font-weight: 400;
+}
+.fontGenos400 {
+    font-family: 'Genos';
+    font-weight: 400;
+}
+
+/* Italic */
+.fontKanitItalic {
+    font-family: 'Kanit';
+    font-weight: 900;
+    font-style: italic;
+}
+.fontBitterItalic {
+    font-family: 'Bitter';
+    font-weight: 900;
+    font-style: italic;
+}
+.fontGrenzeItalic {
+    font-family: 'Grenze';
+    font-weight: 900;
+    font-style: italic;
+}
+.fontLabradaItalic {
+    font-family: 'Labrada';
+    font-weight: 900;
+    font-style: italic;
+}
+.fontNotoSansItalic {
+    font-family: 'Noto Sans';
+    font-weight: 900;
+    font-style: italic;
+}
+.fontPetronaItalic {
+    font-family: 'Petrona';
+    font-weight: 900;
+    font-style: italic;
+}
+.fontRokkittItalic {
+    font-family: 'Rokkitt';
+    font-weight: 900;
+    font-style: italic;
+}
+.fontSairaItalic {
+    font-family: 'Saira';
+    font-weight: 900;
+    font-style: italic;
+}
+.fontTourneyItalic {
+    font-family: 'Tourney';
+    font-weight: 900;
+    font-style: italic;
+}
+.fontVollkornItalic {
+    font-family: 'Vollkorn';
+    font-weight: 900;
+    font-style: italic;
+}
+.fontGenosItalic {
+    font-family: 'Genos';
+    font-weight: 900;
+    font-style: italic;
+}
+
+/* 400 */
+.fontKanit400Italic {
+    font-family: 'Kanit';
+    font-weight: 400;
+    font-style: italic;
+}
+.fontBitter400Italic {
+    font-family: 'Bitter';
+    font-weight: 400;
+    font-style: italic;
+}
+.fontGrenze400Italic {
+    font-family: 'Grenze';
+    font-weight: 400;
+    font-style: italic;
+}
+.fontLabrada400Italic {
+    font-family: 'Labrada';
+    font-weight: 400;
+    font-style: italic;
+}
+.fontNotoSans400Italic {
+    font-family: 'Noto Sans';
+    font-weight: 400;
+    font-style: italic;
+}
+.fontPetrona400Italic {
+    font-family: 'Petrona';
+    font-weight: 400;
+    font-style: italic;
+}
+.fontRokkitt400Italic {
+    font-family: 'Rokkitt';
+    font-weight: 400;
+    font-style: italic;
+}
+.fontSaira400Italic {
+    font-family: 'Saira';
+    font-weight: 400;
+    font-style: italic;
+}
+.fontTourney400Italic {
+    font-family: 'Tourney';
+    font-weight: 400;
+    font-style: italic;
+}
+.fontVollkorn400Italic {
+    font-family: 'Vollkorn';
+    font-weight: 400;
+    font-style: italic;
+}
+.fontGenos400Italic {
+    font-family: 'Genos';
+    font-weight: 400;
+    font-style: italic;
+}
